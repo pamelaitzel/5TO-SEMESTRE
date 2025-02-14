@@ -1,0 +1,3 @@
+L = { w ∈ {letra, dígito, $}* | w comienza con letra o dígito, puede contener un símbolo '$', y sigue con letras o dígitos }
+L = { w ∈ {letra, dígito, $, ε}* | w comienza con letra o dígito, puede contener un símbolo '$', y sigue con letras o dígitos, o bien es la palabra vacía ε }
+L = { w ∈ {letra, dígito, $, ε, _}* | w comienza con letra o dígito, puede contener un símbolo '$' o '_', y sigue con letras, dígitos o guiones bajos, o bien es la palabra vacía ε }
